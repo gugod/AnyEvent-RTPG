@@ -1,12 +1,12 @@
 package AnyEvent::RTPG;
 our $VERSION = "0.01";
-use 5.008;
-use common::sense 2.02;
-use base qw/Object::Event/;
-use AnyEvent   5.202;
 
-use Carp "croak";
-use RTPG;
+use 5.008;
+
+use common::sense 2.02;
+use parents       0.223 "Object::Event";
+use AnyEvent      5.202;
+use RTPG          0.3;
 
 sub new {
    my $this  = shift;
