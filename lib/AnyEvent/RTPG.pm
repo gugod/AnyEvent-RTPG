@@ -4,7 +4,7 @@ our $VERSION = "0.01";
 use 5.008;
 
 use common::sense 2.02;
-use parents       0.223 "Object::Event";
+use parent        0.223 "Object::Event";
 use AnyEvent      5.202;
 use RTPG          0.3;
 
